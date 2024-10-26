@@ -28,14 +28,14 @@ function App() {
         </h3>
       </center> */}
       {/* <div style={{ display: "flex", alignItems: "flex-start" }}>
-        <div style={{ flex: 1 }}>
-          <center> */}
-      <ButtonsContainer
-        onButtonClick={onButtonClick}
-        displayValue={calVal}
-      ></ButtonsContainer>
-      {/* </center>
-        </div> */}
+        <div style={{ flex: 1 }}>*/}
+      <center>
+        <ButtonsContainer
+          onButtonClick={onButtonClick}
+          displayValue={calVal}
+        ></ButtonsContainer>
+      </center>
+      {/* </div> */}
       {/* <div style={{ flex: 1, marginLeft: "0px" }}>
           <Description />
         </div> */}
