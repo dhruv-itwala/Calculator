@@ -20,28 +20,28 @@ function App() {
 
   return (
     <body>
-      <center>
+      {/* <center>
         <h1 style={{ color: "#ff6b6b" }}>React Calculator</h1>
 
         <h3 style={{ color: "#ff6b6b" }}>
           Welcome to my first React Calculator project!
         </h3>
-      </center>
-      <div style={{ display: "flex", alignItems: "flex-start" }}>
+      </center> */}
+      {/* <div style={{ display: "flex", alignItems: "flex-start" }}>
         <div style={{ flex: 1 }}>
-          <center>
-            <ButtonsContainer
-              onButtonClick={onButtonClick}
-              displayValue={calVal}
-            ></ButtonsContainer>
-          </center>
-        </div>
-        <div style={{ flex: 1, marginLeft: "0px" }}>
+          <center> */}
+      <ButtonsContainer
+        onButtonClick={onButtonClick}
+        displayValue={calVal}
+      ></ButtonsContainer>
+      {/* </center>
+        </div> */}
+      {/* <div style={{ flex: 1, marginLeft: "0px" }}>
           <Description />
-        </div>
-      </div>
-      <h1>&nbsp;</h1>
-      <h1 style={{ color: "#ff6b6b", textAlign: "center" }}>Thank you.</h1>
+        </div> */}
+      {/* </div> */}
+      {/* <h1>&nbsp;</h1>
+      <h1 style={{ color: "#ff6b6b", textAlign: "center" }}>Thank you.</h1> */}
     </body>
   );
 }
